@@ -1,0 +1,250 @@
+#dashboard-page{
+    overflow-y: scroll;
+}
+
+nav{
+    height: 8vh;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.main-content{
+    height: 92vh;
+    display: flex;
+}
+
+.main-content .sidebar{
+    background-color: #FFFFFF;
+}
+
+.close-button{
+    display: none;
+}
+
+.hamberger-button{
+    display: none;
+}
+
+.main-content .chart-page{
+    width: 80%;
+}
+
+.main-content .sidebar{
+    width: 20%;
+}
+
+.full-rotate{
+    transform: rotate(180deg);
+}
+
+.chart, .approve, .button-logout{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.data-user, .approve, .button-logout{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    .main-content .sidebar{
+        width: 20%;
+    }
+
+    .main-content .sidebar .profile img{
+        width: 8rem;
+    }
+
+    .main-content .sidebar .logo-sidebar{
+        padding-top: 4rem;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 3rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 8rem;
+    }
+
+    .main-content .chart-page{
+        width: 80%;
+    }
+
+    .bio{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .data-user, .approve, .button-logout{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    .main-content .sidebar{
+        width: 30%;
+    }
+
+    .main-content .sidebar .profile img{
+        width: 8rem;
+    }
+
+    .main-content .sidebar .logo-sidebar{
+        padding-top: 4rem;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 3rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 7rem;
+    }
+
+    .main-content .chart-page{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    .main-content .sidebar{
+        width: 30%;
+    }
+
+    .main-content .sidebar .profile img{
+        width: 8rem;
+    }
+
+    .main-content .sidebar .logo-sidebar{
+        padding-top: 4rem;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 3rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 8rem;
+    }
+
+    .main-content .chart-page{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    .main-content .sidebar{
+        width: 25%;
+    }
+
+    .main-content .sidebar .profile img{
+        width: 8rem;
+    }
+
+    .main-content .sidebar .logo-sidebar{
+        padding-top: 4rem;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 3rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 8rem;
+    }
+
+    .main-content .chart-page{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    .main-content .sidebar{
+        width: 40%;
+    }
+
+    .main-content .sidebar .profile img{
+        width: 8rem;
+    }
+
+    .main-content .sidebar .logo-sidebar{
+        padding-top: 4rem;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 3rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 8rem;
+    }
+
+    .main-content .chart-page{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav{
+        font-size: 2rem;
+    }
+
+    nav p{
+        margin: 0 auto;
+    }
+
+    .hamberger-button{
+        display: block;
+    }
+
+    .main-content .sidebar{
+        position: absolute;
+        left: -70%;
+        width: 70%;
+        z-index: 99;
+        transition: left 1s;
+    }
+
+    .main-content .sidebar .logo-sidebar img:first-child{
+        width: 2rem;
+    }
+    
+    .main-content .sidebar .logo-sidebar img:last-child{
+        width: 6rem;
+    }
+
+    .main-content .chart-page{
+        width: 100%;
+    }
+
+    .bio{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .data-user, .approve, .button-logout{
+        font-size: 1.5rem;
+    }
+}

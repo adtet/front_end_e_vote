@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 12px;
+    overflow-x: hidden;
+}
+
+section#banner{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: #274472de;
+    color: #FEFEFE;
+}
+
+section#register{
+    .col-right, .col-left{
+        padding-top: 5rem;
+        height: 100vh;
+    }
+    .col-right{
+        background-color: #ffc7c7;
+    }
+    .col-left .form{
+        margin-top: 8rem;
+    }
+
+    img{
+        width: 30vw;
+    }
+
+    label,input{
+        font-size: 1rem;
+    }
+
+    input{
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+    .icon{
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}

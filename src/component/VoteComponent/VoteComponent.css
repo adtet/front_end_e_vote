@@ -1,0 +1,48 @@
+.type-vote{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--montserrat);
+}
+
+.card-photo{
+    background: #FFFFFF;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-photo img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.active{
+    background-color: var(--primary-color);
+}
+
+.button-vote{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button-active{
+    background-color: #f1f1f1;
+    color: var(--primary-color);
+}
+
+.button-submit{
+    width: 20%;
+}
+
+@media screen and (max-width: 425px) {
+    .button-submit{
+        width: 50%;
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+    }
+}

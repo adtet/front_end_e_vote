@@ -1,0 +1,34 @@
+.full-rotate{
+    transform: rotate(180deg);
+}
+
+.data-user, .button-logout{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.button-logout{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .data-user, .button-logout{
+        font-size: 1.5rem;
+    }
+
+    .bio{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .data-user, .button-logout{
+        font-size: 1.5rem;
+    }
+
+    .bio{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}

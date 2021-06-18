@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+}
+
+.ilustrasi, .form {
+  width: 50%;
+}
+
+.logo {
+  text-align: right;
+}
+.logo img:first-child {
+  width: 8vw;
+  margin-right: 2rem;
+}
+.logo img:last-child {
+  width: 3vw;
+  margin-right: 2rem;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-form .container-input {
+  width: 100%;
+  height: 6vh;
+  border-radius: 5px;
+  background-color: #E2E2E2;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 2em;
+}
+.container-form .container-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.container-form .container-input input:focus {
+  outline: none;
+}
+.container-form .container-input:focus {
+  border: 1px solid #FF3E3E;
+}
+.container-form button, .container-form .container-file {
+  background-color: #F62225;
+}
+.container-form button {
+  width: 100%;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+}
+.container-form .title {
+  font-size: 2rem;
+}
+.container-form .contact {
+  margin-top: 3rem;
+}
+.container-form .contact img {
+  width: 1.5rem;
+}
+
+.container-file {
+  margin-top: 1.3rem;
+}
+.container-file img {
+  width: 1.1rem;
+}
+.container-file span {
+  font-size: 0.8rem;
+}
+
+.ilustrasi {
+  background-color: #FF3E3E;
+}
+.ilustrasi img {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .form {
+    width: 100%;
+  }
+
+  .ilustrasi {
+    display: none;
+  }
+
+  .logo img:first-child {
+    width: 15vw;
+    margin-right: 0.5rem;
+  }
+  .logo img:last-child {
+    width: 7vw;
+    margin-right: 1rem;
+  }
+
+  .container-form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container-form .container-input {
+    width: 100%;
+    height: 3rem;
+  }
+  .container-form .container-input input {
+    font-size: 1.1rem;
+  }
+  .container-form .container-input label {
+    font-size: 0.7rem;
+  }
+  .container-form button {
+    width: 100%;
+  }
+  .container-form .title {
+    font-size: 1.2rem;
+  }
+  .container-form .title-file {
+    font-size: 0.6rem;
+  }
+  .container-form .contact {
+    margin-top: 3rem;
+  }
+  .container-form .contact img {
+    width: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

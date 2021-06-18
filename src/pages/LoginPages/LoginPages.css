@@ -1,0 +1,42 @@
+section#register-page .left{
+    width: 50%;
+    height: 100vh;
+}
+
+section#register-page .right{
+    width: 50%;
+    height: 100vh;
+}
+
+section#register-page .right .logo{
+    height: 15%;
+}
+
+section#register-page .right .main{
+    height: 75%;
+}
+
+section#register-page .right .footer{
+    height: 10%;
+}
+
+
+@media screen and (max-width: 768px) {
+    section#register-page .left{
+        width: 35%;
+    }
+
+    section#register-page .right{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    section#register-page .left{
+        display: none;
+    }
+
+    section#register-page .right{
+        width: 100%;
+    }
+}

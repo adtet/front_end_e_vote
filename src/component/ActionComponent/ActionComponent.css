@@ -1,0 +1,24 @@
+.full-rotate{
+    transform: rotate(180deg);
+}
+
+.chart, .approve, .button-logout{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.data-user, .approve, .button-logout{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .data-user, .approve, .button-logout{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .data-user, .approve, .button-logout{
+        font-size: 1.5rem;
+    }
+}

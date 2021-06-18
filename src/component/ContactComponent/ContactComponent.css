@@ -1,0 +1,41 @@
+@media screen and (max-width: 1366px) {
+    .title-contact{
+        font-size: 1.2rem;
+    }
+
+    .contact-line img{
+        width: 2.5rem;
+    }
+
+    .contact-line p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-contact{
+        font-size: 1rem;
+    }
+
+    .contact-line img{
+        width: 2rem;
+    }
+
+    .contact-line p{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title-contact{
+        font-size: 1rem;
+    }
+
+    .contact-line img{
+        width: 2rem;
+    }
+
+    .contact-line p{
+        font-size: .8rem;
+    }
+}

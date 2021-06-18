@@ -1,0 +1,121 @@
+.title-form{
+    font-family: var(--roboto);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+form button{
+    background-color: var(--primary-color);
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-family: var(--montserrat);
+}
+
+form button:hover{
+    background-color: #fc2f2f;
+    box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 1366px) {
+    .title-form{
+        font-size: 2rem;
+    }
+
+    form .sub-title-form{
+        font-size: 1.1rem;
+    }
+
+    form button{
+        font-size: 1.8rem;
+    }
+
+    .link-register{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .title-form{
+        font-size: 2rem;
+    }
+
+    form .sub-title-form{
+        font-size: 1rem;
+    }
+    
+    form button{
+        font-size: 1.8rem;
+    }
+    
+    .link-register{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title-form{
+        font-size: 1.8rem;
+    }
+
+    form .sub-title-form{
+        font-size: .9rem;
+    }
+    
+    form button{
+        font-size: 1.5rem;
+    }
+    
+    .link-register{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-form{
+        font-size: 1.5rem;
+    }
+
+    form .sub-title-form{
+        font-size: .85rem;
+    }
+
+    form button{
+        font-size: 1.3rem;
+    }
+
+    
+    .link-register{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title-form{
+        font-size: 1.5rem;
+    }
+
+    form .sub-title-form{
+        font-size: .8rem;
+    }
+
+    form button{
+        font-size: 1rem;
+    }
+
+    .link-register{
+        font-size: 1rem;
+    }
+}
